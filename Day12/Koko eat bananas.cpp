@@ -28,7 +28,7 @@ void kokoeat(float arr[],int size,int tim){
             low=mid+1;
         }
     }
-    printf("We will eat %dbanana/hr",minimumtime);
+    printf("We can eat minimum %dbanana/hr in %d time",minimumtime,tim);
 }
 int main()
 {
